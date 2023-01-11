@@ -1,0 +1,74 @@
+<!-- 리스트의 부모 태그 <ul> (경계 표시, 반드시 자식 태그를 가짐) Unordred List-->
+<!-- 자동 숫자 표시 <ol> Ordered List-->
+
+<!doctype html>
+<html>
+    <head>
+        <title>HTML1 - HTML</title>
+        <h1>WEB</h1>
+    </head>
+    
+    <body>
+        <ol>
+            <!-- 리스트 표시 <li> : 2대가 같이 쓰임 (반드시 부모 태그를 가짐) List-->
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        
+        <h2>HTML</h2>
+        <p>
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/9GkFI1ovBbU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </p>
+        <p>Marup Language (HTML) is the standard markup
+            language for <strong>creating <u>web</u> pages</strong> and web applications.</p> 
+        <img src="coding.jpg" width="450">
+            <p style="margin-top:40px">안녕하세요
+            <!-- margin-top : 픽셀만큼 간격 넓힘 -->
+        동의대학교 학생 황정민입니다
+        <br>아무것도 하기 싫다... 이제 해야지</p>
+
+        <!-- 댓글 disqus 사용 -->
+        <p>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://web1-yw7ksjksu9.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+
+        <p>
+            <!--Start of Tawk.to Script-->
+            <script type="text/javascript">
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/63be2234c2f1ac1e202cc9c9/1gmfbb809';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+                })();
+                </script>
+                <!--End of Tawk.to Script-->
+        </p>
+    </body>
+</html>
